@@ -35,6 +35,9 @@ class PrimeControllerClass {
         return result;
     }
 
+    public sayHi = (salute: string): void => {
+      console.log(salute)
+    }
 }
 
 export const PrimeController = new PrimeControllerClass();
